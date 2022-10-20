@@ -1,0 +1,18 @@
+Objective list  ✓ ✗
+
+✗ Base Npc
+✗ Npc movement
+✗ Npc fsm states
+✗ npc cycle through states correctly
+✗ npc health
+✗ npc take damage
+✗ npc decision roulette
+✗ npc roulette dynamic weights
+✗ game manager
+✗ create teams
+✗ spawn npc
+✗ custom team sizes
+✗ npc enemy line of sight
+✗ create grid for the map
+✗ populate map with obstacles
+
