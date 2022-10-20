@@ -1,0 +1,26 @@
+Inteligencia Artificial
+Final
+
+Introducción:
+El objetivo de este Trabajo Práctico es crear un juego que aplique todos los conocimientos presentados por la cátedra.
+Para esto, se deberá desarrollar una escena con dos batallones que luchen entre ellos.
+
+Consigna:
+●	Crear una escena con obstáculos de por medio y límite en sus bordes.
+●	Crear NPCs para ambos bandos y que cada uno tenga un líder. La cantidad de
+unidades para cada bando debe ser configurable desde editor.
+●	Desarrollar un algoritmo que incluya el sistema de Flocking, el cual será aplicado a todos los NPCs.
+●	Desarrollar las FSM necesarias tanto para los líderes (al menos 5 estados) como las otras unidades para que puedan atacar a sus adversarios (al menos 3 estados). A su vez, tener en cuenta los siguientes puntos:
+❏	Los enemigos sólo podrán atacar a otros si los tienen en su línea de visión, de otra forma, deberán patrullar/buscarlos.
+❏	 Al menos una decisión deberá ser tomada con una Roulette Wheel Selection con pesos dinámicos (es decir, modificados según su entorno).
+❏	 Los NPCs que no son líderes, deberán aplicar Flocking para moverse cerca del líder.
+❏	Tanto los escapes como las persecuciones deberán aplicar algún Steering Behaviour según corresponda.
+
+●	Todos los NPCs en escena deberán esquivar los obstáculos pequeños que se
+encuentren en su camino (utilizando obstacle avoidance).
+●	Todos los NPCs valorarán su vida antes a la de su batallón. Es decir, huirán en caso de tener poca HP, intentarán buscar lugares a salvo, intentarán bloquear/esquivar ataques, etc.
+●	Se deberá tener una “malla” de nodos en el mapa, la cual se utilizará de guía para los posibles movimientos que los NPC decidan tomar. Para desplazarse deberán utilizar el algoritmo AStar *.
+Entrega:
+●	El trabajo será individual obligatoriamente.
+●	Se presentará el proyecto completo, en la versión actual en UADE, junto con el ejecutable.
+●	El cumplimiento de las anteriores tareas resultará en un 7 (siete). En caso de agregar más contenido relacionado a IA de distintas formas (ej: más estados diferentes), esa nota será más alta.
